@@ -13,6 +13,17 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	
+	<distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://localhost:8089/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-hello-world</id>
+            <url>http://localhost:8089/nexus/content/repositories/maven-validator/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 	<dependencies>
 		<dependency>
