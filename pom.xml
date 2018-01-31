@@ -20,7 +20,7 @@
 			<url>http://localhost:8089/nexus/content/repositories/releases</url>
 		</repository>
 		<snapshotRepository>
-			<id>maven-hello-world</id>
+			<id>maven-validator</id>
 			<url>http://localhost:8089/nexus/content/repositories/maven-validator</url>
 		</snapshotRepository>
 	</distributionManagement>
